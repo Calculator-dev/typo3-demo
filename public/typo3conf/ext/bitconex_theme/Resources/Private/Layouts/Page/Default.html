@@ -1,0 +1,113 @@
+<nav
+  class="navbar navbar-expand-lg navbar-light bg-light"
+  style="padding: 0 10%"
+>
+  <a class="navbar-brand" href="/">
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/e/e6/M-Net.svg"
+      width="50"
+      height="50"
+      alt=""
+    />
+  </a>
+
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <f:for each="{mainnavigation}" as="mainnavigationItem">
+        <f:if condition="{mainnavigationItem.children}">
+          <f:then>
+            <li
+              class="nav-item dropdown {f:if(condition: mainnavigationItem.active, then: 'active')}"
+            >
+              <a
+                class="nav-link {f:if(condition: mainnavigationItem.active, then: 'borderBottom', else: 'dropdown-toggle')} {f:if(condition: collapse, then: 'active')}"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                {mainnavigationItem.title}
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <f:for each="{mainnavigationItem.children}" as="child">
+                  <a
+                    class="dropdown-item"
+                    href="{child.link}"
+                    target="{child.target}"
+                    title="{child.title}"
+                  >
+                    {child.title}
+                  </a>
+                </f:for>
+              </div>
+            </li>
+          </f:then>
+          <f:else>
+            <li
+              class="nav-item {f:if(condition: mainnavigationItem.active, then: 'active')}"
+            >
+              <a
+                class="nav-link {f:if(condition: mainnavigationItem.active, then: 'borderBottom')}"
+                href="{mainnavigationItem.link}"
+              >
+                {mainnavigationItem.title}
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+          </f:else>
+        </f:if>
+      </f:for>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <button type="button" class="btn btn-orange rounded-lg">
+        Verfügbarkeit prüfen
+      </button>
+    </form>
+  </div>
+</nav>
+
+<div class="container-fluid bg-hero-gradient">
+  <div class="left-container">
+    <div class="header position-absolute text-white">
+      <h1 class="header2">
+        Unvergessliche <br />
+        Momente - Beginnen <br />mit eined Klick
+      </h1>
+    </div>
+    <div
+      class="price position-absolute d-flex flex-row justify-content-center gap-10 align-items-center"
+    >
+      <div class="price-header position-absolute btn-orange d-inline-block">
+        Nur Für Kurze Zeit
+      </div>
+      <div class="old-price-container d-inline-flex flex-column text-white">
+        <p class="m-0">statt</p>
+        <p class="old-price-tag m-0">14,90 €</p>
+      </div>
+      <div class="text-white position-relative d-inline-flex flex-row">
+        <p class="m-0 lg-letter font-weight-bold">9,</p>
+        <div
+          class="d-inline-flex position-absolute flex-column secondary-price"
+        >
+          <span class="md-letter font-weight-bold">90</span>
+          <p class="m-0 sm-letter">€ mb</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="right-container"></div>
+</div>
