@@ -96,6 +96,21 @@ body {
         justify-content: center;
 
      }
+    h5{
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1.20rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
   }
 
   @media (max-width: 425px) {
@@ -103,6 +118,19 @@ body {
         font-size: 40px !important;
     }
   }
+
+   @media (max-width: 768px) {
+    .surfen-und-telefonieren-content {
+        flex-direction: column;
+    }
+    .surfen-und-telefonieren-right-continer {
+        width: 100% !important;
+        height: 100%;
+    }
+    .surfen-und-telefonieren-left-continer {
+        gap: 20px !important;
+    }
+  } 
 
   .header {
     left: 10%;
@@ -161,4 +189,40 @@ body {
 
  .sm-letter {
     font-size: 8px;
+ }
+
+ .surfen-und-telefonieren-container {
+    height: 100vh;
+ }
+
+ .surfen-und-telefonieren-content {
+    padding: 5% 10%;
+    height: 100vh;
+ }
+
+ .surfen-und-telefonieren-left-continer {
+    gap: 50px;
+ }
+
+ .surfen-und-telefonieren-right-continer {
+    background-image: url('../Images/BackendLayouts/woman-tv.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 20px;
+    width: 40%;
+ }
+
+ .unsere-zusatzoptionen {
+    height: 100vh;
+    background: #CCE9FF;
+ }
+
+ .svg-background {
+    background: #CCE9FF;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
  }
