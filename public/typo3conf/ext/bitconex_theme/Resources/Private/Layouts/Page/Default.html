@@ -187,4 +187,13 @@
   </div>
 </div>
 
-<div class="unsere-zusatzoptionen"></div>
+<div class="unsere-zusatzoptionen">
+  <div class="content-layout">
+    <div class="d-flex justify-content-between h-100 card-container">
+      <h1></h1>
+      <f:for each="{0:1,1:2,2:3}" as="index">
+        <f:render partial="Card" />
+      </f:for>
+    </div>
+  </div>
+</div>
