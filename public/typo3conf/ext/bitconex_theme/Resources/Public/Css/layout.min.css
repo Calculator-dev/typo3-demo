@@ -226,3 +226,7 @@ body {
     border-radius: 50%;
     margin-right: 10px;
  }
+
+ .outlined-button {
+    border-radius: 50px !important;
+ }
