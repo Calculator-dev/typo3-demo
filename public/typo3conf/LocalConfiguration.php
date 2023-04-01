@@ -13,6 +13,7 @@ return [
     'DB' => [
         'Connections' => [
             'Default' => [
+                'charset' => 'utf8',
                 'driver' => 'pdo_sqlite',
                 'path' => '/var/www/html/var/sqlite/cms-c2011eb7.sqlite',
             ],

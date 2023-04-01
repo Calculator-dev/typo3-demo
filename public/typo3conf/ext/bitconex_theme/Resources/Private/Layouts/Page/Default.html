@@ -189,11 +189,23 @@
 
 <div class="unsere-zusatzoptionen">
   <div class="content-layout">
+    <h1 class="mb-4">Unsere Zusatzoptionen</h1>
     <div class="d-flex justify-content-between h-100 card-container">
-      <h1></h1>
-      <f:for each="{0:1,1:2,2:3}" as="index">
-        <f:render partial="Card" />
-      </f:for>
+      <f:render
+        partial="Card"
+        arguments="{cardTitle: 'Fernsehen', buttonName: 'Mehr erfahren',cardText:'Lorem Ipsum Dolor set amin Lorem Ipsum Dolor
+        set amin, Lorem Ipsum Dolor set amin.'}"
+      />
+      <f:render
+        partial="Card"
+        arguments="{cardTitle: 'Sicherheitspaket', buttonName: 'Mehr erfahren',cardText:'Lorem Ipsum Dolor set amin Lorem Ipsum Dolor
+        set amin, Lorem Ipsum Dolor set amin.'}"
+      />
+      <f:render
+        partial="Card"
+        arguments="{cardTitle: 'Komplettinstallation', buttonName: 'Mehr erfahren' ,cardText:'Lorem Ipsum Dolor set amin Lorem Ipsum Dolor
+        set amin, Lorem Ipsum Dolor set amin.'}"
+      />
     </div>
   </div>
 </div>
