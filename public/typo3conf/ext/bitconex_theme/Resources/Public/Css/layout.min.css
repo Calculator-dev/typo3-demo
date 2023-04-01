@@ -294,3 +294,7 @@ body {
   position: relative;
   bottom: -45%;
 }
+
+.umbrella  {
+  filter: invert(45%) sepia(6%) saturate(3082%) hue-rotate(168deg) brightness(104%) contrast(92%)
+}
