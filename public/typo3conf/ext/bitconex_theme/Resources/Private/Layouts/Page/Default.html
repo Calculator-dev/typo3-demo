@@ -90,7 +90,7 @@
     </div>
     <f:render
       partial="PriceContainer"
-      arguments="{price: 9, pricePenny: 90, oldPrice: 14, oldPricePenny: 90, position: 'position-absolute'}"
+      arguments="{otherSections: 'Nur Für Kurze Zeit', price: 9, pricePenny: 90, oldPrice: 14, oldPricePenny: 90, position: 'position-absolute'}"
     />
     <div class="right-container"></div>
   </div>
@@ -215,7 +215,7 @@
       <div class="bottom-section-left-img position-relative">
         <f:render
           partial="PriceContainer"
-          arguments="{price: 19, pricePenny: 90, position: 'position-absolute', left: '65%', top: '85%', className: 'price-container-bottom-section'}"
+          arguments="{price: 19, pricePenny: 90, position: 'position-absolute', left: '65%', top: '85%', className: 'price-container-bottom-section', otherSections: 'Nur Für Kurze Zeit'}"
         />
       </div>
       <h1 class="font-weight-bold">Für Junge Leute</h1>
@@ -232,7 +232,7 @@
       <div class="bottom-section-right-img position-relative">
         <f:render
           partial="PriceContainer"
-          arguments="{price: 10,  pricePenny: 90, position: 'position-absolute', left: '65%', top: '85%', className: 'price-container-bottom-section'}"
+          arguments="{price: 10,  pricePenny: 90, position: 'position-absolute', left: '65%', top: '85%', className: 'price-container-bottom-section', otherSections: 'Nur Für Kurze Zeit'}"
         />
       </div>
       <h1 class="font-weight-bold">Gamer Tarife</h1>
@@ -245,5 +245,42 @@
         arguments="{buttonName: 'Mehr erfahren', style: 'w-25', queries: 'button-bottom-section'}"
       ></f:render>
     </div>
+  </div>
+</div>
+
+<div class="last-section content-layout d-flex">
+  <div class="last-left-container w-50 d-flex flex-row p-3">
+    <div class="position-relative red-rectangle border border-danger font-weight-bold text-danger p-3">
+      <h3 class="position-absolute pos font-weight-bold text-danger">POS 1</h3>
+      <f:render partial="PriceContainer" arguments="{className: 'last-section-price',price: 29, pricePenny: 90, left: '20%', position: 'position-absolute', lastSection: 'Fur Junge Leute', megabytes: '100'}" />
+    </div>
+    <div class="red-rectangle border border-danger font-weight-bold text-danger p-3">
+      <h3 class="font-weight-bold text-danger">POS 2</h3>
+    </div>
+    <div class="red-rectangle border border-danger font-weight-bold text-danger p-3">
+      <h3 class="font-weight-bold text-danger">POS 3</h3>
+    </div>
+    <div class="red-rectangle border border-danger font-weight-bold text-danger p-3">
+      <h3 class=" font-weight-bold text-danger">POS 4</h3>
+    </div>
+  </div>
+  <div class="last-right-container w-50 d-flex flex-column justify-content-around p-5">
+    <h3>Profitieren sie unter 25 Jahren von unseren <br>
+      attraktiven Sonderkonditionen.</h3>
+      <div class="bullet-tags d-flex flex-column text-primary">
+        <div class="bullet-tag p-2 pl-3 bg-white rounded position-relative">
+          Fixpreis über die gesamte Vertragslaufzeit
+          <div class="blue-circle rounded-circle bg-primary position-absolute"></div>
+        </div>
+        <div class="bullet-tag p-2 pl-3 bg-white rounded position-relative">
+          Flexible Kündigungsmöglichkeiten
+          <div class="blue-circle rounded-circle bg-primary position-absolute"></div>
+        </div>
+        <div class="bullet-tag p-2 pl-3 bg-white rounded position-relative">
+          Unbegrenztes Glasfaserinternet
+          <div class="blue-circle rounded-circle bg-primary position-absolute"></div>
+        </div>
+      </div>
+      <f:render partial="FilledButton" arguments="{buttonName: 'Tarif abschließen', style: 'w-25', queries: 'last-button'}" />
   </div>
 </div>

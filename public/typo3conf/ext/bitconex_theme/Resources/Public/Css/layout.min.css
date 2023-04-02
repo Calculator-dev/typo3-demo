@@ -89,6 +89,12 @@ body {
     .unsere-zusatzoptionen {
       height: 110vh !important;
     }
+    .last-section-price {
+      left: 10% !important;
+    }
+    .last-button {
+      width: fit-content !important;
+    }
   }
   
   @media (max-width: 1024px) {
@@ -131,6 +137,20 @@ body {
     .button-bottom-section {
       width: fit-content !important;
     }
+    .last-section {
+      flex-direction: column;
+    }
+    .last-left-container {
+      width: 100% !important;
+    }
+    .last-right-container {
+      width: 100% !important;
+    }
+    .last-section-price {
+      left: 25% !important;
+      top: 20% !important;
+    }
+    
   }
 
  
@@ -175,6 +195,9 @@ body {
      .price-container-bottom-section {
       left: 55% !important;
      }
+     .last-section-price {
+      left: 15% !important;
+    }
   } 
 
   @media (max-width: 425px) {
@@ -187,6 +210,14 @@ body {
      .price-container-bottom-section {
       left: 35% !important;
      }
+     .last-section-price {
+      left: 40% !important;
+      top: 185% !important;
+    }
+    .pos {
+      left: 10% !important;
+      top: 10% !important;
+    }
   }
 
   .header {
@@ -346,4 +377,46 @@ body {
 .bottom-section-layout {
   gap: 20px;
 }
+
+.last-left-container  {
+  background-image: url('../Images/BackendLayouts/teens.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.last-right-container {
+  background: #F2F9FD;
+  gap: 20px;
+  height: 500px;
+}
+
+.bullet-tags {
+  gap: 20px; 
+}
+
+.bullet-tag {
+  width: fit-content;
+}
+
+.blue-circle {
+  width: 20px;
+  height: 20px;
+  left: -3%;
+  top: 25%;
+}
+
+.red-rectangle {
+  border-width: 3px !important;
+}
+
+.pos {
+  left: 2%;
+  top: -20%;
+}
+
 
