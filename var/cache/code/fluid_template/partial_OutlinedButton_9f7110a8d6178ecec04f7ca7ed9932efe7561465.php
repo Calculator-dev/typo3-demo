@@ -1,6 +1,6 @@
 <?php
 
-class partial_OutlinedButton_8ef0cb512af5200e7874c83a821b765a576014bb extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
+class partial_OutlinedButton_9f7110a8d6178ecec04f7ca7ed9932efe7561465 extends \TYPO3Fluid\Fluid\Core\Compiler\AbstractCompiledTemplate {
 
 public function getLayoutName(\TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface $renderingContext) {
 $self = $this;
@@ -41,12 +41,17 @@ $array1 = array (
 );
 $output0 .= call_user_func_array( function ($var) { return (is_string($var) || (is_object($var) && method_exists($var, '__toString')) ? htmlspecialchars((string) $var, ENT_QUOTES) : $var); }, [$renderingContext->getVariableProvider()->getByPath('style', $array1)]);
 
+$output0 .= ' ';
+$array2 = array (
+);
+$output0 .= call_user_func_array( function ($var) { return (is_string($var) || (is_object($var) && method_exists($var, '__toString')) ? htmlspecialchars((string) $var, ENT_QUOTES) : $var); }, [$renderingContext->getVariableProvider()->getByPath('queries', $array2)]);
+
 $output0 .= '"
 >
   ';
-$array2 = array (
+$array3 = array (
 );
-$output0 .= call_user_func_array( function ($var) { return (is_string($var) || (is_object($var) && method_exists($var, '__toString')) ? htmlspecialchars((string) $var, ENT_QUOTES) : $var); }, [$renderingContext->getVariableProvider()->getByPath('buttonName', $array2)]);
+$output0 .= call_user_func_array( function ($var) { return (is_string($var) || (is_object($var) && method_exists($var, '__toString')) ? htmlspecialchars((string) $var, ENT_QUOTES) : $var); }, [$renderingContext->getVariableProvider()->getByPath('buttonName', $array3)]);
 
 $output0 .= '
 </button>

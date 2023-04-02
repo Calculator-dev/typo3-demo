@@ -49,12 +49,7 @@ body {
   .right-container {
     position: relative;
     overflow: hidden;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    height: 80vh;
   }
   
   .right-container::before {
@@ -87,6 +82,12 @@ body {
     }
     .card-body{ 
       margin-top: 100% !important;
+    }
+    .price-container-bottom-section {
+      left: 55% !important;
+    }
+    .unsere-zusatzoptionen {
+      height: 110vh !important;
     }
   }
   
@@ -124,6 +125,12 @@ body {
     .card-body{ 
       margin-top: 120% !important;
     }
+    .price-container-bottom-section {
+      left: 45% !important;
+    }
+    .button-bottom-section {
+      width: fit-content !important;
+    }
   }
 
  
@@ -158,6 +165,16 @@ body {
      .unsere-zusatzoptionen {
       height: 165vh !important; 
      }
+     .bottom-section-container {
+      flex-direction: column;
+      height: 120% !important;
+     }
+     .bottom-section-content-queries {
+      width: 100% !important;
+     }
+     .price-container-bottom-section {
+      left: 55% !important;
+     }
   } 
 
   @media (max-width: 425px) {
@@ -166,6 +183,9 @@ body {
     }
     .card-body {
       margin-top: 35% !important;
+     }
+     .price-container-bottom-section {
+      left: 35% !important;
      }
   }
 
@@ -178,8 +198,9 @@ body {
     font-size: 70px;
   }
 
+  
+
   .price {
-    position: relative;
     left: 10%;
     bottom: 25%;
     background: #0070AE;
@@ -190,6 +211,7 @@ body {
   }
 
   .price-header {
+    position: absolute;
     padding:5px 10px;
     border-radius: 10px;
     left: 20%;
@@ -220,7 +242,7 @@ body {
 
  .secondary-price {
     line-height: 1;
-    left: 75%;
+    left: 83%;
     top: 25%;
  }
 
@@ -298,3 +320,30 @@ body {
 .umbrella  {
   filter: invert(45%) sepia(6%) saturate(3082%) hue-rotate(168deg) brightness(104%) contrast(92%)
 }
+
+.bottom-section-left-img {
+    background-image: url('../Images/BackendLayouts/two-girls-phone.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.bottom-section-right-img  {
+    background-image: url('../Images/BackendLayouts/vr.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.bottom-section {
+  height: 100vh;
+}
+
+.bottom-section-layout {
+  gap: 20px;
+}
+

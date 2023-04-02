@@ -90,10 +90,11 @@
     </div>
     <f:render
       partial="PriceContainer"
-      arguments="{price: 9, pricePenny: 90, oldPrice: 14, oldPricePenny: 90}"
+      arguments="{price: 9, pricePenny: 90, oldPrice: 14, oldPricePenny: 90, position: 'position-absolute'}"
     />
     <div class="right-container"></div>
   </div>
+</div>
 
   <div class="surfen-und-telefonieren-container container-fluid">
     <div class="surfen-und-telefonieren-content d-flex justify-content-between">
@@ -185,34 +186,64 @@
       <div class="surfen-und-telefonieren-right-continer"></div>
     </div>
   </div>
-</div>
 
-<div class="unsere-zusatzoptionen">
-  <div class="content-layout">
-    <h1 class="mb-4">Unsere Zusatzoptionen</h1>
-    <div class="d-flex justify-content-between h-100 card-container">
-      <f:render
-        partial="Card"
-        arguments="{svg: 'https://upload.wikimedia.org/wikipedia/commons/5/5f/TV_-_The_Noun_Project.svg',cardTitle: 'Fernsehen', buttonName: 'Mehr erfahren',cardText:'Lorem Ipsum Dolor set amin Lorem Ipsum Dolor
+  <div class="unsere-zusatzoptionen">
+    <div class="content-layout">
+      <h1 class="mb-4">Unsere Zusatzoptionen</h1>
+      <div class="d-flex justify-content-between h-100 card-container">
+        <f:render
+          partial="Card"
+          arguments="{svg: 'https://upload.wikimedia.org/wikipedia/commons/5/5f/TV_-_The_Noun_Project.svg',cardTitle: 'Fernsehen', buttonName: 'Mehr erfahren',cardText:'Lorem Ipsum Dolor set amin Lorem Ipsum Dolor
         set amin, Lorem Ipsum Dolor set amin.'}"
-      />
-      <f:render
-        partial="Card"
-        arguments="{svg: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Umbrella_%2880433%29_-_The_Noun_Project.svg',cardTitle: 'Sicherheitspaket', buttonName: 'Mehr erfahren',cardText:'Lorem Ipsum Dolor set amin Lorem Ipsum Dolor
+        />
+        <f:render
+          partial="Card"
+          arguments="{svg: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Umbrella_%2880433%29_-_The_Noun_Project.svg',cardTitle: 'Sicherheitspaket', buttonName: 'Mehr erfahren',cardText:'Lorem Ipsum Dolor set amin Lorem Ipsum Dolor
         set amin, Lorem Ipsum Dolor set amin.'}"
-      />
-      <f:render
-        partial="Card"
-        arguments="{svg: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Electric.svg',cardTitle: 'Komplettinstallation', buttonName: 'Mehr erfahren' ,cardText:'Lorem Ipsum Dolor set amin Lorem Ipsum Dolor
+        />
+        <f:render
+          partial="Card"
+          arguments="{svg: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Electric.svg',cardTitle: 'Komplettinstallation', buttonName: 'Mehr erfahren' ,cardText:'Lorem Ipsum Dolor set amin Lorem Ipsum Dolor
         set amin, Lorem Ipsum Dolor set amin.'}"
-      />
+        />
+      </div>
     </div>
   </div>
-</div>
 
-<div class="bottom-section">
-  <div class="container-fluid">
-    <div class="left-container"></div>
-    <div class="right-container"></div>
+  <div class="content-layout d-flex justify-content-between bottom-section-container" style="gap: 20px">
+    <div class="d-flex flex-column w-50 bottom-section-content-queries" >
+      <div class="bottom-section-left-img position-relative">
+        <f:render
+          partial="PriceContainer"
+          arguments="{price: 19, pricePenny: 90, position: 'position-absolute', left: '65%', top: '85%', className: 'price-container-bottom-section'}"
+        />
+      </div>
+      <h1 class="font-weight-bold">Für Junge Leute</h1>
+      <p class="w-75">
+        Lorem Ipsum Dolor set amin Lorem Ipsum Dolor set amin, Lorem Ipsum Dolor
+        set amin
+      </p>
+      <f:render
+        partial="OutlinedButton"
+        arguments="{buttonName: 'Mehr erfahren', style: 'w-25',queries: 'button-bottom-section'}"
+      ></f:render>
+    </div>
+    <div class="d-flex flex-column w-50  bottom-section-content-queries">
+      <div class="bottom-section-right-img position-relative">
+        <f:render
+          partial="PriceContainer"
+          arguments="{price: 10,  pricePenny: 90, position: 'position-absolute', left: '65%', top: '85%', className: 'price-container-bottom-section'}"
+        />
+      </div>
+      <h1 class="font-weight-bold">Gamer Tarife</h1>
+      <p class="w-75">
+        Lorem Ipsum Dolor set amin Lorem Ipsum Dolor set amin, Lorem Ipsum Dolor
+        set amin
+      </p>
+      <f:render
+        partial="OutlinedButton"
+        arguments="{buttonName: 'Mehr erfahren', style: 'w-25', queries: 'button-bottom-section'}"
+      ></f:render>
+    </div>
   </div>
 </div>
