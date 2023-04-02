@@ -378,6 +378,10 @@ body {
   gap: 20px;
 }
 
+.last-section {
+  padding: 0 10% !important;
+}
+
 .last-left-container  {
   background-image: url('../Images/BackendLayouts/teens.jpg');
   background-size: cover;
@@ -419,4 +423,19 @@ body {
   top: -20%;
 }
 
+.icon {
+  filter: invert(47%) sepia(0%) saturate(242%) hue-rotate(148deg) brightness(90%) contrast(76%);
+}
 
+.icons {
+  gap: 10px;
+}
+
+.footer-pages {
+  gap: 20px;
+}
+
+.footer {
+  gap: 20px;
+  height: 50vh !important;
+}
