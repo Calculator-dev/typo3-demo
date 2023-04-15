@@ -5,3 +5,17 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:bitconex_theme/Configuration/TsConfig/Page/TCEFORM.tsconfig">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:bitconex_theme/Configuration/TsConfig/Page/TCEMAIN.tsconfig">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:bitconex_theme/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig">
+
+mod.wizards.newContentElement.wizardItems.common {
+    elements {
+        yourextensionkey_newcontentelement {
+            iconIdentifier = your-icon-identifier
+            title = Box
+            description = Box for the boss Mirza :)
+            tt_content_defValues {
+                CType = yourextensionkey_newcontentelement
+            }
+        }
+    }
+    show := addToList(yourextensionkey_newcontentelement)
+}

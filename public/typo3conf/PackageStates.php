@@ -86,6 +86,9 @@ return [
         'bitconex_theme' => [
             'packagePath' => 'typo3conf/ext/bitconex_theme/',
         ],
+        'store_inventory' => [
+            'packagePath' => 'typo3conf/ext/store_inventory /',
+        ],
     ],
     'version' => 5,
 ];

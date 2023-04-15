@@ -1,0 +1,9 @@
+@import 'EXT:fluid_styled_content/Configuration/TypoScript/constants.typoscript'
+
+page {
+   fluidtemplate {
+      layoutRootPath = EXT:bitconex_theme/Resources/Private/Layouts/Page/
+      partialRootPath = EXT:bitconex_theme/Resources/Private/Partials/Page/
+      templateRootPath = EXT:bitconex_theme/Resources/Private/Templates/Page/
+   }
+}

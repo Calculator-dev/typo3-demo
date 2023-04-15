@@ -881,4 +881,25 @@ $GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['bitconex_theme'] = 'EXT:bitconex_
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bitconex_theme/Configuration/TsConfig/Page/All.tsconfig">');
 
 
+/**
+ * Extension: store_inventory
+ * File: /var/www/html/public/typo3conf/ext/store_inventory /ext_localconf.php
+ */
+
+
+defined('TYPO3_MODE') || die('Access denied.');
+
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
+    'StoreInventory',
+    'InventoryList',
+    [
+        \Vendor\StoreInventory\Controller\StoreInventoryController::class => 'list',
+    ],
+    // non-cacheable actions
+    [
+        \Vendor\StoreInventory\Controller\StoreInventoryController::class => '',
+    ]
+);
+
+
 #

@@ -16,6 +16,18 @@
 #  3  = border
 #
 #################
+lib.contentElement {
+    templateRootPaths.200 = EXT:bitconex_theme/Resources/Private/Templates/ContentElements
+    partialRootPaths.200 = EXT:bitconex_theme/Resources/Private/Partials/
+    layoutRootPaths.200 = EXT:bitconex_theme/Resources/Private/Layout/
+
+}
+tt_content {
+    yourextensionkey_newcontentelement =< lib.contentElement
+    yourextensionkey_newcontentelement {
+        templateName = NewContentElement.html
+    }
+}
 lib.dynamicContent = COA
 lib.dynamicContent {
     5 = LOAD_REGISTER

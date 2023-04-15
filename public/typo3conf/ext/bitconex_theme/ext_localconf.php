@@ -9,3 +9,4 @@ $GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['bitconex_theme'] = 'EXT:bitconex_
  * PageTS
  */
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bitconex_theme/Configuration/TsConfig/Page/All.tsconfig">');
+

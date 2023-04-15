@@ -8905,159 +8905,165 @@ return array (
               ),
               6 => 
               array (
+                0 => 'yourextensionkey_newcontentelement',
+                1 => 'yourextensionkey_newcontentelement',
+                2 => 'content-box',
+              ),
+              7 => 
+              array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.div.lists',
                 1 => '--div--',
                 2 => NULL,
                 3 => 'lists',
               ),
-              7 => 
+              8 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.I.4',
                 1 => 'bullets',
                 2 => 'content-bullets',
                 3 => 'lists',
               ),
-              8 => 
+              9 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.I.5',
                 1 => 'table',
                 2 => 'content-table',
                 3 => 'lists',
               ),
-              9 => 
+              10 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.I.6',
                 1 => 'uploads',
                 2 => 'content-special-uploads',
                 3 => 'lists',
               ),
-              10 => 
+              11 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.div.menu',
                 1 => '--div--',
                 2 => NULL,
                 3 => 'menu',
               ),
-              11 => 
+              12 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.menu_abstract',
                 1 => 'menu_abstract',
                 2 => 'content-menu-abstract',
                 3 => 'menu',
               ),
-              12 => 
+              13 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.menu_categorized_content',
                 1 => 'menu_categorized_content',
                 2 => 'content-menu-categorized',
                 3 => 'menu',
               ),
-              13 => 
+              14 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.menu_categorized_pages',
                 1 => 'menu_categorized_pages',
                 2 => 'content-menu-categorized',
                 3 => 'menu',
               ),
-              14 => 
+              15 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.menu_pages',
                 1 => 'menu_pages',
                 2 => 'content-menu-pages',
                 3 => 'menu',
               ),
-              15 => 
+              16 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.menu_subpages',
                 1 => 'menu_subpages',
                 2 => 'content-menu-pages',
                 3 => 'menu',
               ),
-              16 => 
+              17 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.menu_recently_updated',
                 1 => 'menu_recently_updated',
                 2 => 'content-menu-recently-updated',
                 3 => 'menu',
               ),
-              17 => 
+              18 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.menu_related_pages',
                 1 => 'menu_related_pages',
                 2 => 'content-menu-related',
                 3 => 'menu',
               ),
-              18 => 
+              19 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.menu_section',
                 1 => 'menu_section',
                 2 => 'content-menu-section',
                 3 => 'menu',
               ),
-              19 => 
+              20 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.menu_section_pages',
                 1 => 'menu_section_pages',
                 2 => 'content-menu-section',
                 3 => 'menu',
               ),
-              20 => 
+              21 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.menu_sitemap',
                 1 => 'menu_sitemap',
                 2 => 'content-menu-sitemap',
                 3 => 'menu',
               ),
-              21 => 
+              22 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.menu_sitemap_pages',
                 1 => 'menu_sitemap_pages',
                 2 => 'content-menu-sitemap-pages',
                 3 => 'menu',
               ),
-              22 => 
+              23 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.div.special',
                 1 => '--div--',
                 2 => NULL,
                 3 => 'special',
               ),
-              23 => 
+              24 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.I.13',
                 1 => 'shortcut',
                 2 => 'content-special-shortcut',
                 3 => 'special',
               ),
-              24 => 
+              25 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.I.14',
                 1 => 'list',
                 2 => 'content-plugin',
                 3 => 'special',
               ),
-              25 => 
+              26 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.I.16',
                 1 => 'div',
                 2 => 'content-special-div',
                 3 => 'special',
               ),
-              26 => 
+              27 => 
               array (
                 0 => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.I.17',
                 1 => 'html',
                 2 => 'content-special-html',
                 3 => 'special',
               ),
-              27 => 
+              28 => 
               array (
                 0 => 'Form',
                 1 => 'form_formframework',
                 2 => 'content-form',
                 3 => 'forms',
               ),
-              28 => 
+              29 => 
               array (
                 0 => 'Login Form',
                 1 => 'felogin_login',
@@ -10188,6 +10194,13 @@ return array (
                 1 => '',
                 2 => '',
                 3 => 'none',
+              ),
+              1 => 
+              array (
+                0 => 'Stvarno test',
+                1 => 'storeinventory_inventorylist',
+                2 => 'EXT:store_inventory/Resources/Public/Icons/Extension.svg',
+                3 => 'default',
               ),
             ),
             'itemGroups' => 
@@ -11486,6 +11499,70 @@ return array (
         --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:extended,
     ',
         ),
+        'yourextensionkey_newcontentelement' => 
+        array (
+          'showitem' => '
+               --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
+                   --palette--;;general,
+                   --palette--;;headers,
+                   bodytext;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:bodytext_formlabel,
+               --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
+                   --palette--;;frames,
+                   --palette--;;appearanceLinks,
+               --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language,
+                   --palette--;;language,
+               --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access,
+                   --palette--;;hidden,
+                   --palette--;;access,
+               --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:categories,
+                   categories,
+               --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:notes,
+                   rowDescription,
+               --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:extended,
+           ',
+          'columnsOverrides' => 
+          array (
+            'bodytext' => 
+            array (
+              'config' => 
+              array (
+                'fixedFont' => true,
+              ),
+            ),
+          ),
+        ),
+        'InventoryList' => 
+        array (
+          'showitem' => '
+                --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
+                    --palette--;;general,
+                    --palette--;;headers,
+                    bodytext;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:bodytext_formlabel,
+                --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
+                    --palette--;;frames,
+                    --palette--;;appearanceLinks,
+                --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language,
+                    --palette--;;language,
+                --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access,
+                    --palette--;;hidden,
+                    --palette--;;access,
+                --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:categories,
+                    categories,
+                --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:notes,
+                    rowDescription,
+                --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:extended,
+            ',
+          'columnsOverrides' => 
+          array (
+            'bodytext' => 
+            array (
+              'config' => 
+              array (
+                'fixedFont' => true,
+              ),
+            ),
+          ),
+        ),
       ),
       'palettes' => 
       array (
@@ -12258,6 +12335,54 @@ return array (
                 personal,
             --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:extended,
         ',
+        ),
+      ),
+    ),
+    'tx_storeinventory_domain_model_product' => 
+    array (
+      'ctrl' => 
+      array (
+        'title' => 'LLL:EXT:store_inventory/Resources/Private/Language/locallang_db.xlf:tx_storeinventory_domain_model_product',
+        'label' => 'name',
+        'iconfile' => 'EXT:store_inventory/Resources/Public/Icons/Product.svg',
+      ),
+      'columns' => 
+      array (
+        'name' => 
+        array (
+          'label' => 'LLL:EXT:store_inventory/Resources/Private/Language/locallang_db.xlf:tx_storeinventory_domain_model_product.item_label',
+          'config' => 
+          array (
+            'type' => 'input',
+            'size' => '20',
+            'eval' => 'trim',
+          ),
+        ),
+        'description' => 
+        array (
+          'label' => 'LLL:EXT:store_inventory/Resources/Private/Language/locallang_db.xlf:tx_storeinventory_domain_model_product.item_description',
+          'config' => 
+          array (
+            'type' => 'text',
+            'eval' => 'trim',
+          ),
+        ),
+        'quantity' => 
+        array (
+          'label' => 'LLL:EXT:store_inventory/Resources/Private/Language/locallang_db.xlf:tx_storeinventory_domain_model_product.stock_quantity',
+          'config' => 
+          array (
+            'type' => 'input',
+            'size' => '4',
+            'eval' => 'int',
+          ),
+        ),
+      ),
+      'types' => 
+      array (
+        0 => 
+        array (
+          'showitem' => 'name, description, quantity',
         ),
       ),
     ),
